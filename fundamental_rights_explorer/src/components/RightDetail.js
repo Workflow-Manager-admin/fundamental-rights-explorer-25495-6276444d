@@ -1,6 +1,7 @@
 import React from "react";
 import { useParams, Link } from "react-router-dom";
 import rightsData from "../rightsData";
+import Quiz from "./Quiz";
 
 /**
  * PUBLIC_INTERFACE
@@ -80,8 +81,12 @@ function RightDetail() {
         }}
         aria-label="Quiz Section"
       >
-        <strong>Quiz:</strong> <br />
-        <em>Quiz coming soon! (This will test your knowledge with multiple choice questions.)</em>
+        <strong>Quiz:</strong>
+        <br />
+        <span style={{ color: "var(--text-secondary)", fontStyle: "italic", fontWeight: 400, display: 'block', marginBottom: 10 }}>
+          Test your knowledge: Choose your answers and get instant feedback!
+        </span>
+        <Quiz questions={right.quiz} />
       </div>
 
       <Link to="/" className="btn" style={{ marginTop: 32 }}>
