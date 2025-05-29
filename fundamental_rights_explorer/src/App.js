@@ -1,25 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Routes, Route, Link } from 'react-router-dom';
-
-// Placeholder (to be moved into separate files later)
-function RightsList() {
-  return (
-    <div className="hero">
-      <div className="subtitle">Explore India's Fundamental Rights</div>
-      <h1 className="title">Fundamental Rights Explorer</h1>
-      <div className="description">
-        Select a Fundamental Right to learn more, explore real-life cases, and test your knowledge!
-      </div>
-      <div style={{ marginTop: 32, display: 'flex', flexDirection: 'column', gap: 16, width: '100%', maxWidth: 400, marginLeft: 'auto', marginRight: 'auto' }}>
-        {/* These will later be generated dynamically from data */}
-        <Link to="/right/right-to-equality" className="btn btn-large">Right to Equality</Link>
-        <Link to="/right/right-to-freedom" className="btn btn-large">Right to Freedom</Link>
-        <Link to="/right/right-against-exploitation" className="btn btn-large">Right Against Exploitation</Link>
-      </div>
-    </div>
-  );
-}
+import RightsList from './components/RightsList';
 
 // Placeholder (to be replaced with real data and logic)
 function RightDetail() {
