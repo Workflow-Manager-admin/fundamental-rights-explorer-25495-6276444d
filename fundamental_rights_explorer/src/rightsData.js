@@ -85,6 +85,137 @@ const rightsData = [
         explanation: "All of the above are grounds for imposing reasonable restrictions."
       }
     ]
+  },
+  // --- Added rights below ---
+  {
+    id: "right-against-exploitation",
+    name: "Right against Exploitation",
+    explanation:
+      "Prohibits all forms of forced labor, child labor, and human trafficking. Ensures that no person can be compelled to work against their wishes and protects children from being employed in hazardous occupations.",
+    example:
+      "In the case of People’s Union for Democratic Rights v. Union of India (1982), the Supreme Court held that non-payment of minimum wages amounts to forced labor, thereby enforcing the right against exploitation.",
+    quiz: [
+      {
+        question: "Which articles comprise the Right against Exploitation?",
+        options: [
+          "Articles 19-22",
+          "Articles 23-24",
+          "Articles 14-18",
+          "Articles 25-28"
+        ],
+        correctAnswer: 1,
+        explanation: "Articles 23 and 24 constitute the Right against Exploitation."
+      },
+      {
+        question: "The Right against Exploitation prohibits:",
+        options: [
+          "Child labor in hazardous jobs",
+          "Human trafficking",
+          "Begar (forced labor)",
+          "All of the above"
+        ],
+        correctAnswer: 3,
+        explanation: "All are explicitly prohibited by this right."
+      },
+      {
+        question: "Employing children under the age of 14 in factories is:",
+        options: [
+          "Permitted under supervision",
+          "Prohibited by the Constitution",
+          "Restricted only in certain states",
+          "Allowed if they are paid"
+        ],
+        correctAnswer: 1,
+        explanation: "The Constitution (Article 24) prohibits employment of children under 14 in hazardous work."
+      }
+    ]
+  },
+  {
+    id: "right-to-freedom-of-religion",
+    name: "Right to Freedom of Religion",
+    explanation:
+      "Assures all persons the freedom of conscience and the right to freely profess, practice, and propagate religion. Subject to public order, morality, and health. Also protects religious denominations’ autonomy in managing their affairs.",
+    example:
+      "In the Shirur Mutt case (1954), the Supreme Court held that every religious denomination has the right to manage its own affairs in matters of religion.",
+    quiz: [
+      {
+        question: "Right to Freedom of Religion is covered under which articles?",
+        options: [
+          "Articles 25-28",
+          "Articles 14-18",
+          "Articles 32-35",
+          "Articles 19-22"
+        ],
+        correctAnswer: 0,
+        explanation: "Articles 25 to 28 deal with matters of religious freedom."
+      },
+      {
+        question: "Freedom to manage religious affairs by a group is protected for:",
+        options: [
+          "Any religious denomination",
+          "Only government entities",
+          "Only citizens above 18",
+          "No one"
+        ],
+        correctAnswer: 0,
+        explanation: "This right applies to every religious denomination."
+      },
+      {
+        question: "Freedom to propagate religion means:",
+        options: [
+          "Forcing others to convert",
+          "Spreading one’s beliefs peacefully",
+          "Only practicing privately",
+          "No interaction with other religions"
+        ],
+        correctAnswer: 1,
+        explanation: "Propagation means peacefully spreading beliefs, not forced conversion."
+      }
+    ]
+  },
+  {
+    id: "right-to-constitutional-remedies",
+    name: "Right to Constitutional Remedies",
+    explanation:
+      "Empowers citizens to move the Supreme Court or High Courts to seek remedy for violation of fundamental rights. Dr. B.R. Ambedkar called this the 'heart and soul' of the Constitution because it ensures that rights are enforceable.",
+    example:
+      "In the Kesavananda Bharati v. State of Kerala (1973) case, the Supreme Court held that the basic structure of the Constitution, including the right to constitutional remedies, cannot be altered.",
+    quiz: [
+      {
+        question: "Which Article is called the ‘heart and soul’ of the Indian Constitution by Dr. Ambedkar?",
+        options: [
+          "Article 21",
+          "Article 32",
+          "Article 19",
+          "Article 14"
+        ],
+        correctAnswer: 1,
+        explanation: "Article 32 allows citizens to directly move the Supreme Court for protection of Fundamental Rights."
+      },
+      {
+        question: "Which of the following writs is NOT available under Article 32?",
+        options: [
+          "Habeas Corpus",
+          "Prohibition",
+          "Quo Warranto",
+          "Certiorari",
+          "Injunction"
+        ],
+        correctAnswer: 4,
+        explanation: "‘Injunction’ is not a constitutional writ; the others are."
+      },
+      {
+        question: "The Supreme Court can issue writs for enforcement of:",
+        options: [
+          "Only Fundamental Rights",
+          "All Legal Rights",
+          "Directive Principles",
+          "None of the above"
+        ],
+        correctAnswer: 0,
+        explanation: "Article 32 empowers the Court to enforce Fundamental Rights specifically."
+      }
+    ]
   }
 ];
 
